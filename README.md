@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Francesca Zambrano | Developer</title>
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+        <meta name="author" content="ThemesBoss" />
+
+        <link rel="shortcut icon" href="HTML/images/favicon.ico">
+
+        <!--Bootstrap Css-->
+        <link rel="stylesheet" href="HTML/css/bootstrap.min.css" />
+
+        <!-- Materialdesign icons Css -->
+        <link rel="stylesheet" href="HTML/css/materialdesignicons.min.css">
+
+        <!-- Mobirise icons Css -->
+        <link rel="stylesheet" href="HTML/css/mobiriseicons.css">
+
+        <!-- Magnific-popup -->
+        <link rel="stylesheet" href="HTML/css/magnific-popup.css">
+
+        <!-- Animate Css -->
+        <link rel="stylesheet" href="HTML/css/animate.min.css">
+
+        <!-- Owl Slider -->
+        <link rel="stylesheet" href="HTML/css/owl.carousel.css" />
+        <link rel="stylesheet" href="HTML/css/owl.theme.css" />
+        <link rel="stylesheet" href="HTML/css/owl.transitions.css" />
+
+        <!-- Custom style Css -->
+        <link rel="stylesheet" href="HTML/css/style.css">
+    </head>
+
+    <body>
+
+        <!-- START LOADER -->
+        <div id="preloader">
+            <div id="status">
+                <div class="spinner">Loading...</div>
+            </div>
+        </div>
+        <!-- END LOADER -->
+
+        <!-- START NAVBAR -->
+        <nav class="navbar navbar-expand-lg fixed-top custom-nav sticky">
+            <div class="container">
+                <!-- LOGO -->
+             <!----  <a class="navbar-brand logo" href="index.html">
+                        ><img src="images/logo.png" alt="" class="img-fluid logo-light"> 
+                        <img src="images/logo-dark.png" alt="" class="img-fluid logo-dark">
+                    </a>
+            -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="mdi mdi-menu"></i>
+                    </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a href="#home" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#education" class="nav-link">Education</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#work" class="nav-link">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- END NAVBAR -->
+
+        <!--START HOME-->
+        <section class="home-bg section creative h-100vh" id="home">
+            <div class="bg-overlay"></div>
+            <div class="home-table">
+                <div class="home-table-center">
+                    <div class="container position-relative z-index">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-12">
+                                <div class="text-white text-center">
+                                    <h4>Hello & Welcome</h4>
+                                    <h1 class="header_title mb-0 mt-3">I Am <span class="simple-text-rotate font-weight-bold"> Francesca.  ,A Designer.,A Devloper.</span></h1>
+                                    <ul class="social_home list-unstyled text-center pt-4">
+                                        <li class="list-inline-item"><a href="https://www.facebook.com/francescaczambrano"><i class="mdi mdi-facebook"></i></a></li>
+                                        <li class="list-inline-item"><a href="https://www.linkedin.com/in/francesca-zambrano/"><i class="mdi mdi-linkedin"></i></a></li>
+                                    </ul>
+                                    <div class="header_btn">
+                                        <a href="HTML/francesca_zambrano.pdf" class="btn btn-outline-custom btn-rounded mt-4 download">Download CV</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll_down">
+                <a href="#about" class="scroll">
+                    <i class="mbri-arrow-down text-white"></i>
+                </a>
+            </div>
+        </section>
+        <!--END HOME-->
+
+        <!-- START ABOUT -->
+        <section class="section" id="about">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-12">
+                        <div class="text-center mx-auto section-main-title">
+                            <h2><span class="font-weight-bold">About </span>Me</h2>
+                            <div class="main-title-border">
+                                <i class="mdi mdi-asterisk"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-4 pt-4">
+                    <div class="col-lg-12">
+                        <div>
+                            <a href="https://fontmeme.com/brush-fonts/"><img src="https://fontmeme.com/permalink/190319/df610871604b66787d8b483a449f6005.png" alt="brush-fonts" class="img-fluid mx-auto d-block"></a>
+                           <!---- <img src="images/sign.png" alt="" class="img-fluid mx-auto d-block">
+                           -->
+                        </div>
+                        <div class="text-center about-detail mx-auto mt-5">
+                            <h3 class="mb-3">Hello! <span class="font-weight-bold text-custom">I'm Francesca Zambrano.</span></h3>
+                            <ul class="mb-0 list-inline text-center about-work">
+                                <li class="list-inline-item mr-0 text-muted">UI/UX Designer</li>
+                                <li class="list-inline-item mr-0 text-muted">Devloper</li>
+                            </ul>
+                            <p class="text-muted mt-3">STUFF ABOUT ME</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-lg-6">
+                        <div class="progress-bars skill-custom">
+                            <div class="clearfix">
+                                <div class="text-dark font-weight-bold float-left">Python</div>
+                                <div class="text-muted float-right">90%</div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <div class="clearfix">
+                                <div class="text-dark font-weight-bold float-left">C++</div>
+                                <div class="text-muted float-right">80%</div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <div class="clearfix">
+                                <div class="text-dark font-weight-bold float-left">JavaScript</div>
+                                <div class="text-muted float-right">75%</div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <div class="clearfix">
+                                <div class="text-dark font-weight-bold float-left">Node.js</div>
+                                <div class="text-muted float-right">85%</div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="progress-bars skill-custom">
+                            <div class="clearfix">
+                                <div class="text-dark font-weight-bold float-left">Html</div>
+                                <div class="text-muted float-right">90%</div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <div class="clearfix">
+                                <div class="text-dark font-weight-bold float-left">Css</div>
+                                <div class="text-muted float-right">80%</div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <div class="clearfix">
+                                <div class="text-dark font-weight-bold float-left">SQL</div>
+                                <div class="text-muted float-right">85%</div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width:85%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END ABOUT -->
+
+        <!-- START EXP. & EDU. -->
+        <section class="section" id="education">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-12">
+                        <div class="text-center mx-auto section-main-title">
+                            <h2><span class="font-weight-bold">Education & Experience</span></h2>
+                            <div class="main-title-border">
+                                <i class="mdi mdi-asterisk"></i>
+                            </div>
+                            <p class="text-muted mx-auto mt-2">A downloadable version of my CV is available on my <a class="text-dark mx-auto mt-2" href="#home">homepage</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-4 pt-4">
+                    <div class="col-lg-5">
+                        <div class="cv_edu_exp mt-3">
+                            <div class="cv_edu_exp_box mt-4">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="cv_edu_exp_year font-weight-bold text-custom position-relative">2015-2019</div>
+                                        <div class="cb_edu_exp_detail">
+                                            <h4>Undergraduate at Fordham University</h4>
+                                            <p class="cv_desc mb-0">Bachelors of Science. <br> Major: Computer Science. <br> Minor: Mathematics</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="cv_edu_exp_box mt-4">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="cv_edu_exp_year font-weight-bold text-custom position-relative">June, 2017 - August, 2017</div>
+                                        <div class="cb_edu_exp_detail">
+                                            <h4>Software Developer Intern at Brookhaven National Laboratory</h4>
+                                            <p class="cv_desc mb-0">Collaborated with microbiologists to advance their research in genetic disorders by developing efficient algorithms for the filtering of the most common DNA subsequences in an organism. <br> 
+Transformed data in various formats from web/mobile apps into analyzable formats (CSV, SPSS, and Excel) <br>
+SQL, C++, Excel, CSV, SPSS</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="cv_edu_exp_box mt-4">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="cv_edu_exp_year font-weight-bold text-custom position-relative"> October, 2017 - September, 2018</div>
+                                        <div class="cb_edu_exp_detail">
+                                            <h4>Web Development Instructor At Code Interactive</h4>
+                                            <p class="cv_desc mb-0">Developed and conducted a course in Web Development for junior and senior high school students. <br>
+HTML, CSS, PHP, SQL, and JavaScript.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 offset-lg-2">
+                        <div class="cv_edu_exp mt-3">
+                            <div class="cv_edu_exp_box mt-4">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="cv_edu_exp_year font-weight-bold text-custom position-relative">September, 2017 - January, 2019 </div>
+                                        <div class="cb_edu_exp_detail">
+                                            <h4>Software Developer Intern at KindMind Technology </h4>
+                                            <p class="cv_desc mb-0">Developed front and back end software to enhance user experience for a mental health company with a focus on user login and home screen features. <br>
+Participated in data analysis activities to retrieve data in order to determine the commonalities amongst the population using their application. <br>
+Independent project coordination of two application efforts, including leading the development of the community forum and mobile home screen using the Agile Scrum methodology.<br>
+Objective-C, Swift, JavaScript, HTML5, Sails.js, and AWS.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="cv_edu_exp_box mt-4">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="cv_edu_exp_year font-weight-bold text-custom position-relative">September, 2018 - May, 2019</div>
+                                        <div class="cb_edu_exp_detail">
+                                            <h4>Teaching Assistant At Fordham University   </h4>
+                                            <p class="cv_desc mb-0">Aided faculty with classroom instruction, exams, and curriculum development for three computer science courses.<br> 
+ Assisted students with C++, object-oriented programming, algorithms, and data structures topics to students in class and during office hours.<br>
+Aided students in the implementation and functionality of programs such as Sublime, Xcode, Visual Studio Code, and NetBeans.<br> 
+C++</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="cv_edu_exp_box mt-4">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="cv_edu_exp_year font-weight-bold text-custom position-relative">June, 2019 - Present</div>
+                                        <div class="cb_edu_exp_detail">
+                                            <h4>Python Instructor At Girls Who Code </h4>
+                                            <p class="cv_desc mb-0">Led the Bank of America’s third annual Summer Immersion Program to heighten the exposure of  females to technology.<br>
+Taught 20 senior high school students Web Development and Python for Data Science. 
+Guided students in building a website as their final project. <br>
+Supported students in implementing Arduino into robots that demonstrate fundamental locomotion.<br>
+Coordinated field trips and the delivery of technology for the students to the bank
+Facilitated communication between tech departments in the bank involved with Girls Who Code.<br>
+Python, Javascript, HTML, CSS, PHP, SQL, and API’s.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>                
+            </div>
+        </section>
+        <!-- END EXP. & EDU. -->
+
+        <!--START PROJECTS -->   
+        <section class="section text-center" id="work">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-12">
+                        <div class="text-center mx-auto section-main-title">
+                            <h2>My <span class="font-weight-bold">Projects</span></h2>
+                            <div class="main-title-border">
+                                <i class="mdi mdi-asterisk"></i>
+                            </div>
+                            <p class="text-muted mx-auto mt-2">Here are the projects I have worked on during my time growing as a designer and devloper. These projects range 
+                            from object-oriented development, the use of API's, and UI/UX design.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row mt-5 work-filter">
+                    <div class="col-lg-4 work_item webdesign wordpress">
+                        <a href="images/works/1.jpg" class="img-zoom">
+                            <div class="work_box">
+                                <div class="work_img">
+                                    <img src="images/works/1.jpg" class="img-fluid mx-auto d-block rounded" alt="work-img">
+                                </div>
+                                <div class="work_detail">
+                                    <p class="mb-2">Category</p>
+                                    <h4 class="mb-0">Project Title</h4>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 work_item WORK webdesign seo">
+                        <a href="images/works/2.jpg" class="img-zoom">
+                            <div class="work_box">
+                                <div class="work_img">
+                                    <img src="images/works/2.jpg" class="img-fluid mx-auto d-block rounded" alt="work-img">
+                                </div>
+                                <div class="work_detail">
+                                    <p class="mb-2">Category</p>
+                                    <h4 class="mb-0">Project Title</h4>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 work_item seo wordpress">
+                        <a href="images/works/3.jpg" class="img-zoom">
+                            <div class="work_box">
+                                <div class="work_img">
+                                    <img src="images/works/3.jpg" class="img-fluid mx-auto d-block rounded" alt="work-img">
+                                </div>
+                                <div class="work_detail">
+                                    <p class="mb-2">Category</p>
+                                    <h4 class="mb-0">Project Title</h4>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 work_item wordpress WORK webdesign">
+                        <a href="images/works/4.jpg" class="img-zoom">
+                            <div class="work_box">
+                                <div class="work_img">
+                                    <img src="images/works/4.jpg" class="img-fluid mx-auto d-block rounded" alt="work-img">
+                                </div>
+                                <div class="work_detail">
+                                    <p class="mb-2">Category</p>
+                                    <h4 class="mb-0">Project Title</h4>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 work_item seo webdesign">
+                        <a href="images/works/5.jpg" class="img-zoom">
+                            <div class="work_box">
+                                <div class="work_img">
+                                    <img src="images/works/5.jpg" class="img-fluid mx-auto d-block rounded" alt="work-img">
+                                </div>
+                                <div class="work_detail">
+                                    <p class="mb-2">Category</p>
+                                    <h4 class="mb-0">Project Title</h4>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 work_item devlopment webdesign">
+                        <a href="images/works/6.jpg" class="img-zoom">
+                            <div class="work_box">
+                                <div class="work_img">
+                                    <img src="images/works/6.jpg" class="img-fluid mx-auto d-block rounded" alt="work-img">
+                                </div>
+                                <div class="work_detail">
+                                    <p class="mb-2">Category</p>
+                                    <h4 class="mb-0">Project Title</h4>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--END PROJECTS -->
+
+        <!-- CONTACT FORM START-->
+        <section class="section " id="contact">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-12">
+                        <div class="text-center mx-auto section-main-title">
+                            <h2>Get In <span class="font-weight-bold">Touch!</span></h2>
+                            <div class="main-title-border">
+                                <i class="mdi mdi-asterisk"></i>
+                            </div>
+                            <p class="text-muted mx-auto mt-2">You can reach me through the options listed below or fill out this form!</p>
+                        </div>
+                    </div>
+                </div>  
+                <div class="row mt-4 pt-4">
+                    <div class="col-lg-4">
+                        <div class="text-center mt-4">
+                            <div>
+                                <i class="mbri-mobile2 text-custom h2"></i>
+                            </div>
+                            <div class="mt-2">
+                                <p class="mb-0 font-weight-bold">Call Me On</p>
+                                <p class="text-muted">+516 361 5276</p>
+                            </div>
+                        </div>
+                        <div class="text-center mt-4">
+                            <div>
+                                <i class="mbri-letter text-custom h2"></i>
+                            </div>
+                            <div class="mt-2">
+                                <p class="mb-0 font-weight-bold">Email Me At</p>
+                                <p class="text-muted">francesca.cz22@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="contact_form">
+                            <div id="message"></div>
+                            <form method="post" action="HTML/php/contact.php" name="contact-form" id="working_form">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="form-group mt-2">
+                                            <label for="name" class="font-weight-bold">Name</label>
+                                            <input name="name" id="name" type="text" class="form-control" placeholder="Your name..." >
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group mt-2">
+                                            <label for="email" class="font-weight-bold">Email address</label>
+                                            <input name="email" id="email" type="email" class="form-control" placeholder="Your email..." >
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="form-group mt-2">
+                                            <label for="subject" class="font-weight-bold">Subject</label>
+                                            <input type="text" class="form-control" id="subject" placeholder="Your Subject.." />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="form-group mt-2">
+                                            <label for="comments" class="font-weight-bold">Message</label>
+                                            <textarea name="comments" id="comments" rows="4" class="form-control" placeholder="Your message..."></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12 text-right">
+                                        <input type="submit" id="submit" name="send" class="submitBnt btn btn-custom" value="Send Message">
+                                        <div id="simple-msg"></div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>  
+                    </div>
+                </div>                          
+            </div>
+        </section> 
+        <!-- CONTACT FORM END-->
+
+        <!-- START FOOTER -->
+        <section class="bg-light">
+            <div class="container">
+                <div class="row pt-4 pb-4">
+                    <div class="col-lg-12">
+                        <div class="float-right float_none mt-2 mb-2">
+                            <ul class="list-inline fot_social mb-0">
+                                <li class="list-inline-item"><a href="" class="social-icon text-muted"><i class="mdi mdi-facebook"></i></a></li>
+                                <li class="list-inline-item"><a href="" class="social-icon text-muted"><i class="mdi mdi-linkedin"></i></a></li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END FOOTER -->
+
+        <!-- BACK TO TOP -->    
+        <a href="#" class="back_top"> <i class="mbri-arrow-up"> </i> </a>
+
+
+        <!-- JAVASCRIPTS -->
+        <script src="HTML/js/jquery.min.js"></script>
+        <script src="HTML/js/popper.min.js"></script>
+        <script src="HTML/js/bootstrap.min.js"></script>
+        <!--EASING JS-->
+        <script src="HTML/js/jquery.easing.min.js"></script>
+        <script src="HTML/js/scrollspy.min.js"></script>
+        <!--TEXT ROTETE-->
+        <script src="HTML/js/jquery.simple-text-rotator.js"></script>         
+        <!-- MFP JS -->
+        <script src="HTML/js/jquery.magnific-popup.min.js"></script>   
+        <!-- CONTACT JS -->
+        <script src="HTML/js/contact.js"></script>
+        <!--PORTFOLIO FILTER JS-->
+        <script src="HTML/js/isotope.js"></script>     
+        <!--PARTICLES ANIMATE JS-->
+        <script src="HTML/js/particles.js"></script>  
+        <script src="HTML/js/particles.app.js"></script>   
+        <!-- OWL CAROUSEL -->
+        <script src="HTML/js/owl.carousel.min.js"></script>
+        <!--CUSTOM JS-->
+        <script src="HTML/js/custom.js"></script>
+        <script>
+            $(".simple-text-rotate").textrotator({
+                animation: "fade",
+                speed: 3500
+            });
+        </script>
+    </body>
+</html>
+
